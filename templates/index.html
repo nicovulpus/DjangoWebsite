@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        {% load static %}
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Vandremo Solutions</title>
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+        <link rel="stylesheet" type="text/css" href="{% static 'css/responsive.css' %} ">
+        <link rel="icon" type="image/x-icon" href="{% static 'images/V-logo.jpg' %} " />
+
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#team">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">            
+                <div class="masthead-subheading">Welcome!</div>
+                <div class="masthead-heading text-uppercase">Vandremo Solutions</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#services">Services</a>
+            </div>
+        </header>
+        <!-- Services-->
+        <section class="page-section" id="services">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Services</h2>
+                    <h3 class="section-subheading text-muted">Tutoring and programming</h3>
+                </div>
+                <div class="row text-center">
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-chalkboard fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Tutoring</h4>
+                        <p class="text-muted">I offer tutoring in mathematics , programming and computer science.</p>
+                    </div>
+                    <div class="col-md-4 text-center">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-chalkboard fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Programming</h4>
+                        <p class="text-muted">I am a programmer that does not shy away from a challenge.</p>
+                    </div>                    
+                    <div class="col-md-4">
+                        <span class="fa-stack fa-4x">
+                            <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                            <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                        <h4 class="my-3">Security</h4>
+                        <p class="text-muted">Cybersecurity is important, and I offer my services to help you stay protected.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Portfolio</h2>
+                    <h3 class="section-subheading text-muted">Certificates</h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <img id="harvard" src="{% static 'images/Harvard.jpg' %}">
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Harvard CS50</div>
+                                <div class="portfolio-caption-subheading text-muted">Introductory course in computer science</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <img id="BI" src="{% static 'images/BIBilde.jpg' %}">
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">Bachelors degree in Economics</div>
+                                <div class="portfolio-caption-subheading text-muted">Economics and Administration</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <img id="BI" src="{% static 'images/fcc.png' %}">
+                            <div class="portfolio-caption">
+                                <div class="portfolio-caption-heading">FreeCodeCamp</div>
+                                <div class="portfolio-caption-subheading text-muted">Web Deveolopment Certificate</div>
+                            </div>
+                        </div>
+                    </div>
+
+        <!-- About-->
+        <section class="page-section" id="about">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About</h2>
+                    <h3 class="section-subheading text-muted"></h3>
+                </div>
+                <ul class="timeline">
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{% static 'images/Face2FaceBilde.png' %}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2018-2019</h4>
+                                <h4 class="subheading">Face2Face</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Sales</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{% static 'images/NorwegianEnergyBilde.avif' %}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2020</h4>
+                                <h4 class="subheading">Norwegian Energy AS</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Startup</p></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{% static 'images/BonavaNorgeBilde.png' %}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2021-2023</h4>
+                                <h4 class="subheading">Bonava Norge AS</h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Accounting</p></div>
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="{% static 'images/computerscience.jpg' %}" alt="..." /></div>
+                        <div class="timeline-panel">
+                            <div class="timeline-heading">
+                                <h4>2024 -- Present</h4>
+                                <h4 class="subheading"></h4>
+                            </div>
+                            <div class="timeline-body"><p class="text-muted">Mathematics and computer science</p></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Team-->
+        <section class="page-section bg-light" id="team">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact</h2>
+                    <h3 class="section-subheading text-muted">Solution oriented, efficient, cooperative.</h3>
+                </div>
+                <div class="row" id="row1">
+                    <div class="col-lg-4">
+                        <div class="team-member">
+                            <img id="CVpic" class="rounded-circle img-fluid" src="{% static 'images/Programming.webp' %}">
+                            <h4>Nicholas Vandremo</h4>
+                            <p class="text-muted">Programmer, mathematician, economist </p>
+                            <a class="btn btn-dark btn-social mx-2" href="https://x.com/nicovulpus" aria-label="Nicholas Vandremo Twitter Profile"><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-dark btn-social mx-2" href="https://www.linkedin.com/in/nicholas-vandremo-298912172/" aria-label="Nicholas Vandremo LinkedIn Profile"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center"><p class="large"> <strong>nicholas.v.vandremo@gmail.com</strong> </p></div>
+                    <div class="col-lg-8 mx-auto text-center"><p class="large"> <strong> +47 47966361</strong> </p></div>
+                </div>
+                <div id="row1">
+                <p class="large text-muted">Word of the day: </p><br>
+                </div>
+                <div id="row1">
+                <p class="large text-muted" id="english_word">{{ word }}</p>
+                </div>
+                <div id="row1">
+                <p class="large text-muted" id="openai">{{ definition }}</p>
+                </div>
+            </div>
+        </section>
+      
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+        <script src="{% static 'javascript/javascript.js' %}"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
+</html>
